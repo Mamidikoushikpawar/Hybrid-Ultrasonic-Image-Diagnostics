@@ -1,4 +1,4 @@
-**Hybrid Ultrasonic Image Diagnostics System**/n
+**Hybrid Ultrasonic Image Diagnostics System**
 
 **Project Overview**
 
