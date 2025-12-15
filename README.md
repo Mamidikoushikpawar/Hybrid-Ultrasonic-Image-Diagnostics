@@ -99,8 +99,3 @@ Hybrid deep learning system for ultrasonic medical image diagnostics using Mobil
 **Summary**
 
 A deep learning–based medical imaging project focused on automated ultrasonic image classification using hybrid modeling and MobileNet transfer learning. The system processes and normalizes 600+ ultrasound images, extracts high-level visual features, and trains optimized models using TensorFlow/Keras in a Jupyter/Google Colab environment. The project demonstrates practical application of computer vision, medical image processing, and AI-driven diagnostics, producing deployable trained model artifacts suitable for further research or healthcare applications.
-
-
-
-
-  
