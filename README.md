@@ -5,7 +5,7 @@
 A deep learning–based medical image diagnostics system designed to classify ultrasound images using hybrid modeling and transfer learning techniques. The project leverages MobileNet architecture for efficient feature extraction and robust classification on limited medical datasets.
 
 
-**Key Features**
+**📌 Key Features**
 
 Hybrid AI model for ultrasonic image classification
 Transfer learning with MobileNet
@@ -14,14 +14,24 @@ Model training and evaluation using TensorFlow/Keras
 Deployable trained model artifacts
 
 
-**Technologies Used**
+**🛠 Technologies Used**
 
 Python
 TensorFlow / Keras
-MobileNet
-Computer Vision
+Flask
+NumPy
+HTML / CSS
 Medical Image Processing
 Jupyter / Google Colab
+
+**📦 Model**
+
+best_hybrid_weighted.h5
+best_model.h5
+best_transfer_vecalpha.h5
+hybrid_model_export.h5
+hybrid_model.keras
+transfer_mobilenet_vecalpha.keras
 
 
 **Dataset & Training Details**
@@ -32,10 +42,30 @@ Batch size: 32
 Training epochs: ~20
 
 
+**⚙️ Installation**
+
+Clone the repository:
+git clone https://github.com/<your-username>/Hybrid-Ultrasonic-Image-Diagnostics.git
+cd Hybrid-Ultrasonic-Image-Diagnostics
+Install dependencies:
+pip install -r requirements.txt
+Run the Flask app:
+python app.py
+Open in browser
+http://127.0.0.1:5000/
+
+
 **How to Run**
 
 pip install -r requirements.txt     #command
 jupyter notebook notebooks/Hybrid_Ultrasonic_Image_Diagnostics.ipynb      #command
+
+
+**🧪 Usage**
+
+Upload a breast ultrasound image
+The model predicts: Benign / Malignant / Normal
+Displays probability scores
 
 
 **Results**
@@ -51,7 +81,7 @@ Integrate real-time ultrasound stream processing
 Deploy as a web or mobile diagnostic tool
 
 
-**Commit Message**: 
+**Commit Message**
 
 #sql
 Initial commit: Hybrid ultrasonic image diagnostics system using MobileNet
@@ -61,7 +91,7 @@ Added preprocessing pipeline and model training workflow
 Uploaded trained models and evaluation metrics
 
 
-**Description**: 
+**Description**
 
 Hybrid deep learning system for ultrasonic medical image diagnostics using MobileNet transfer learning.
 
