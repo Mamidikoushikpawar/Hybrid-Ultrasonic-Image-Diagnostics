@@ -1,5 +1,7 @@
-Hybrid Ultrasonic Image Diagnostics System
-📌 Project Overview
+**Hybrid Ultrasonic Image Diagnostics System**/n
+
+
+**Project Overview**
 A deep learning–based medical image diagnostics system designed to classify ultrasound images using hybrid modeling and transfer learning techniques. The project leverages MobileNet architecture for efficient feature extraction and robust classification on limited medical datasets.
 
 **Key Features**
@@ -8,7 +10,6 @@ Transfer learning with MobileNet
 Medical image preprocessing and normalization
 Model training and evaluation using TensorFlow/Keras
 Deployable trained model artifacts
-
 
 **Technologies Used**
 Python
@@ -39,7 +40,7 @@ Extend to multi-class medical diagnosis
 Integrate real-time ultrasound stream processing
 Deploy as a web or mobile diagnostic tool
 
-**Commit Message**
+**Commit Message**: 
 #sql
 Initial commit: Hybrid ultrasonic image diagnostics system using MobileNet
 #nginx
@@ -47,11 +48,11 @@ Added preprocessing pipeline and model training workflow
 #nginx
 Uploaded trained models and evaluation metrics
 
-**Description**
+**Description**: 
 Hybrid deep learning system for ultrasonic medical image diagnostics using MobileNet transfer learning.
 
-
-
+**Summary**
+A deep learning–based medical imaging project focused on automated ultrasonic image classification using hybrid modeling and MobileNet transfer learning. The system processes and normalizes 600+ ultrasound images, extracts high-level visual features, and trains optimized models using TensorFlow/Keras in a Jupyter/Google Colab environment. The project demonstrates practical application of computer vision, medical image processing, and AI-driven diagnostics, producing deployable trained model artifacts suitable for further research or healthcare applications.
 
 
 
